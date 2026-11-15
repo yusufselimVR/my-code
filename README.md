@@ -14,4 +14,5 @@ this is a normal calculator in which you can do addition, substraction, division
 
 -in the code in for loops, we take the every row and columns and the values from the 2D list of buttons for the grid layout.
 -the buttons also created through the process after for loops and grid layout used to place buttons like in calculator.
--when a button is clicked, lambda function will take the signal and send the value to the function called
+-when a button is clicked, lambda function will take the signal and send the value to the function called button_clicked and this function will decide what to do if one of the buttons is clicked.
+-when the text changes in hotbar, it will activate the function called update_preview which will give a pre result under the hotbar.
